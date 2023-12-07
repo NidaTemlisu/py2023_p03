@@ -13,7 +13,7 @@ class BookApp:
         self.books = self.parse_xml("veriSeti.xml")
 
         # Başlık
-        self.label = tk.Label(root, text="Bilge'nin Kitap Arşivi", font=("Helvetica", 16))
+        self.label = tk.Label(root, text="Nida'nın Kitap Arşivi", font=("Helvetica", 16))
         self.label.pack(pady=10)
 
         # Liste kutusu
